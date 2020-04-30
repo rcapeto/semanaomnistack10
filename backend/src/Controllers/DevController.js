@@ -28,8 +28,7 @@ module.exports = {
     
             const { name = login , avatar_url, bio } = apiResponse.data;
             //se o name não existir então vai pegar o login
-            console.log(name, avatar_url, bio);
-        
+
             const techsArray = parseStringAsArray(techs);
         
             const location = {
